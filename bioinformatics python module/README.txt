@@ -1,6 +1,6 @@
 Description:
 This Python module accepts user inputs and returns information related to the name of
-the inputted gene, drug, or phenotype. The module uses the splite3 and pandas libraries
+the inputted gene, drug, or phenotype. The module uses the sqlite3 and pandas libraries
 to convert .tsv files into pandas DataFrames that then become tables in an SQL relational
 database. The database is then queried to find relevant information about the user’s input.
 
